@@ -1,0 +1,72 @@
+body {
+  background: #333F42;
+  color: #B4975A;
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+
+h1  {
+  background: #B4975A;
+  color: #000000;
+  padding: 10px;
+}
+
+p {
+  background: #252e30;
+  padding: 10px
+}
+
+/*For the Links*/
+
+a:hover {
+  color:#C8102E;
+}
+
+a:link {
+  color: #FFFFFF;
+}
+
+a:visited {
+  color: #C8102E;
+}
+
+/*All of this is for the navbar*/
+header{
+  margin: 0;
+  padding: 0;
+}
+header h1{
+  margin: 0;
+  padding: 10px;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+  background: #252e30
+}
+.nbLink {
+  float: left;
+}
+
+.nbLink a{
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  }
+
+  .nbLink a:hover{
+    color: #C8102E;
+  }
+
+  /*This is the footer*/
+
+  .footer {
+    background: none;
+    color: #878787;
+  }
